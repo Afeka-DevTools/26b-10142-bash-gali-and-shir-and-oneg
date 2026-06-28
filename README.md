@@ -185,7 +185,7 @@
 
 
 
-* \### 5. Bulk File Renamer with Counter
+ \### 5. Bulk File Renamer with Counter
 * \*\*File Path:\*\* 'scripts/rename\_txt.sh'
 * \*\*Description:\*\* Renames multiple files in a directory by adding a sequential counter prefix or suffix to their names based on user input.
 * \*\*How to Run:\*\*
