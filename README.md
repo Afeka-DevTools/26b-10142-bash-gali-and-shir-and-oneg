@@ -200,6 +200,98 @@
 
 &#x09;'''
 
+# Oneg Ben Hamo's Tasks
+
+### 1. Compare Two Files
+
+* **File Path:** `scripts/compare_files.sh`
+* **Description:** Compares two files and prints whether they are identical or different.
+* **How to Run:**
+
+  1. Ensure you are in the project's root directory.
+
+  2. Run the command:
+
+  ```bash
+  ./scripts/compare_files.sh
+  ```
+
+  3. Enter the paths of the two files when prompted.
+
+---
+
+### 2. Count Files, Directories and Links
+
+* **File Path:** `scripts/count_items.sh`
+* **Description:** Counts the number of files, directories and symbolic links in a given directory.
+* **How to Run:**
+
+  1. Ensure you are in the project's root directory.
+
+  2. Run the command:
+
+  ```bash
+  ./scripts/count_items.sh
+  ```
+
+  3. Enter the directory path when prompted.
+
+---
+
+### 3. Count Lines, Words and Characters
+
+* **File Path:** `scripts/count_lines_words_chars.sh`
+* **Description:** Counts the number of lines, words and characters in every file inside a given directory.
+* **How to Run:**
+
+  1. Ensure you are in the project's root directory.
+
+  2. Run the command:
+
+  ```bash
+  ./scripts/count_lines_words_chars.sh
+  ```
+
+  3. Enter the directory path when prompted.
+
+---
+
+### 4. Display Important Environment Variables
+
+* **File Path:** `scripts/env_vars.sh`
+* **Description:** Displays important environment variables such as USER, HOME, PATH, SHELL, PWD, HOSTNAME and LANG.
+* **How to Run:**
+
+  1. Ensure you are in the project's root directory.
+
+  2. Run the command:
+
+  ```bash
+  ./scripts/env_vars.sh
+  ```
+
+---
+
+### 5. Find Large Files
+
+* **File Path:** `scripts/large_files.sh`
+* **Description:** Displays all files in a selected directory whose size is larger than a user-defined threshold.
+* **How to Run:**
+
+  1. Ensure you are in the project's root directory.
+
+  2. Run the command:
+
+  ```bash
+  ./scripts/large_files.sh
+  ```
+
+  3. Enter:
+
+     * The directory path.
+     * The minimum file size (in bytes).
+
+
 
 
 
