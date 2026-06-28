@@ -19,7 +19,7 @@ while true; do
     echo ""
     
     # שליפת השעה הנוכחית ושליחתה לעיצוב ב-figlet
-    date "+%H:%M:%S" | figlet
+    date "+%H:%M:%S"
     
     # השהייה של שנייה אחת לפני העדכון הבא
     sleep 1
